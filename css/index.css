@@ -1,0 +1,48 @@
+@font-face {
+			  font-family: 'iconfont';  /* project id 1963201 */
+			  src: url('//at.alicdn.com/t/font_1963201_pr2zgo4iiq.eot');
+			  src: url('//at.alicdn.com/t/font_1963201_pr2zgo4iiq.eot?#iefix') format('embedded-opentype'),
+			  url('//at.alicdn.com/t/font_1963201_pr2zgo4iiq.woff2') format('woff2'),
+			  url('//at.alicdn.com/t/font_1963201_pr2zgo4iiq.woff') format('woff'),
+			  url('//at.alicdn.com/t/font_1963201_pr2zgo4iiq.ttf') format('truetype'),
+			  url('//at.alicdn.com/t/font_1963201_pr2zgo4iiq.svg#iconfont') format('svg');
+			}
+			.iconfont {
+			  font-family: "iconfont" !important;
+			  font-size: 28px;
+			  font-style: normal;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+				position: relative;
+				left: 50%;
+			}
+				a{
+					margin-right: 5px;
+					box-sizing: border-box;
+				}
+				.active{
+					background-size: calc(1.2);
+				}
+        .class_outer {
+            width: 546px;
+            height: 276px;
+            /* margin: 10px auto; */
+            position: relative;
+            overflow: hidden;
+        }
+        .class_cover {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background-color: rgba(0, 0, 0, .3);
+            color: rgb(224,224,224);
+            font-size: 22px;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        		display: none;
+						overflow: hidden;
+        }
+        a:hover .class_cover{
+        	display: block;
+        }
